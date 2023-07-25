@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./pokedex-list.component.sass']
 })
 export class PokedexListComponent {
-  pokemons = ['teste1, teste2']
+  pokemons = ['Bulbasaur', 'Ivysaur', 'Venosaur', 'Chamander']
 }
