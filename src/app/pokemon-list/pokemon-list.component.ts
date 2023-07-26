@@ -3,8 +3,8 @@ import { PokemonService } from '../services/pokemon.service';
 
 @Component({
   selector: 'app-pokedex-list',
-  templateUrl: './pokedex-list.component.html',
-  styleUrls: ['./pokedex-list.component.sass']
+  templateUrl: './pokemon-list.component.html',
+  styleUrls: ['./pokemon-list.component.sass']
 })
 export class PokedexListComponent {
   constructor(public pokemonService: PokemonService){}
